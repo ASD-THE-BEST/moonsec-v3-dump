@@ -1,0 +1,13 @@
+====only for no option====
+
+
+1. do beautify moonsec v3 code(recommand luamin exectension in vs code)
+2. find similar like this
+		local function _()
+			local u = {};
+			local h = {};
+			local e = {};
+3. if you find it then scroll down slowly and found like e = k();     function name can be diffrent
+4. print function between end; and f[o] = e;(function name can be diffrent)
+5. then it will be print (e)
+6. gg
