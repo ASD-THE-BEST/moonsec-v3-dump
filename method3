@@ -1,0 +1,25 @@
+===litle cool===
+1. find
+local h = l(e, "kw4hTL!lH0x*&Zz;z0&Hx&01l!!Lh&46+TTlhOwHZ0*;x*00!&H4!4wLQzXHlz!0TT4HJ&!ChL4xw-;0ZH*w00lL;!;w*&xVHT*L**0;H4T*Tw4h^hZ*zA&40ZH!!hLhM&ww;:ZT*0x!LZlTLHhxxz0LlTLHh&0 l!Lwhx4T0!0;L&TE4TL&LTh04l*Hz4&0*eHZ4&!lhL4**&;VZ!*lx lLLlT&4wKTxTZ;*LxTl&wH404;wh;!*;*L0lhHL4wh&T*hH&l<LThHwz=pzT&HxZ08lTLHTz4ZyTzH&&*h0TlHL&L44&vHz&Zv*L0Hl&!d!xThA&;?ZT*z0&Hw!TTZ4&wT;HZH*&xeHx!HTZhXwH;&Z&&#xTH;!&LwhTwH74zj&TxHHZl#LThH4z(lzT&Hx&0TlTLHh&h4wLzH&Z*i0!lHL&TX4TwLz&ZP*T0xl&!wTT4HwH;<ZT*H0ZHV!TTH4&wd;TZH");
+something like this
+2. scroll down until find
+		local b = n;
+		local function _(n)
+			local l;
+			if (not n) then
+				n = b();
+				if (n == 0) then
+					return '';
+				end;
+			end;
+			l = t.MFVsCwKJ(h, e(1, 3), e(5, 6) + n - 1);
+			e(n)
+			local e = ""
+			for n = (1 + s), #l do
+				e = e .. t.MFVsCwKJ(l, n, n) --here
+			end
+			return e;
+
+this
+3. print i commented
+4. end
