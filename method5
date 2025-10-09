@@ -1,0 +1,87 @@
+===litle cool===
+=== the obfuscated code : https://github.com/ASD-THE-BEST/moonsec-v3-dump/blob/main/not%20dumped.txt ===
+
+1. do beautify moonsec v3 code(recommand luamin exectension in vs code)
+2. find similar like this function name can be diffrent
+	local r = (function(f, d)
+		local a, l = 1, 16;
+		local n = {
+			{},
+			{},
+			{}
+		}
+		local o = -1;
+		local e = 1;
+		local r = f;
+		while true do
+			n[3][t.MqfnRXaT(d, e, (function()
+				e = a + e;
+				return e - 1
+			end)())] = (function()
+				o = o + 1;
+				return o
+			end)()
+			if o == (15) then
+				o = ""
+				l = 0;
+				break
+			end
+		end;
+		local o = #d;
+		while e < o + 1 do
+			n[2][l] = t.MqfnRXaT(d, e, (function()
+				e = a + e;
+				return e - 1
+			end)())
+			l = l + 1;
+			if l % 2 == 0 then
+				l = 0;
+				t.uhH_CVGG(n[1], (c((((n[3][n[2][0]] or 0) * 16) + (n[3][n[2][1]] or 0) + r) % 256)))
+				r = f + r
+			end
+		end;
+    -- here!!!!!!!!!! print the return Value!! i mean t.rZcDTgyD(n[1])
+		return t.rZcDTgyD(n[1])
+	end)
+3. print i comment
+result
+	local r = (function(f, d)
+		local a, l = 1, 16;
+		local n = {
+			{},
+			{},
+			{}
+		}
+		local o = -1;
+		local e = 1;
+		local r = f;
+		while true do
+			n[3][t.MqfnRXaT(d, e, (function()
+				e = a + e;
+				return e - 1
+			end)())] = (function()
+				o = o + 1;
+				return o
+			end)()
+			if o == (15) then
+				o = ""
+				l = 0;
+				break
+			end
+		end;
+		local o = #d;
+		while e < o + 1 do
+			n[2][l] = t.MqfnRXaT(d, e, (function()
+				e = a + e;
+				return e - 1
+			end)())
+			l = l + 1;
+			if l % 2 == 0 then
+				l = 0;
+				t.uhH_CVGG(n[1], (c((((n[3][n[2][0]] or 0) * 16) + (n[3][n[2][1]] or 0) + r) % 256)))
+				r = f + r
+			end
+		end;
+        print(t.rZcDTgyD(n[1]))
+		return t.rZcDTgyD(n[1])
+	end)
