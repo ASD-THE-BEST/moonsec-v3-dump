@@ -1,6 +1,29 @@
 ======not good method======
-1. find
-local h = l(e, "kw4hTL!lH0x*&Zz;z0&Hx&01l!!Lh&46+TTlhOwHZ0*;x*00!&H4!4wLQzXHlz!0TT4HJ&!ChL4xw-;0ZH*w00lL;!;w*&xVHT*L**0;H4T*Tw4h^hZ*zA&40ZH!!hLhM&ww;:ZT*0x!LZlTLHhxxz0LlTLHh&0 l!Lwhx4T0!0;L&TE4TL&LTh04l*Hz4&0*eHZ4&!lhL4**&;VZ!*lx lLLlT&4wKTxTZ;*LxTl&wH404;wh;!*;*L0lhHL4wh&T*hH&l<LThHwz=pzT&HxZ08lTLHTz4ZyTzH&&*h0TlHL&L44&vHz&Zv*L0Hl&!d!xThA&;?ZT*z0&Hw!TTZ4&wT;HZH*&xeHx!HTZhXwH;&Z&&#xTH;!&LwhTwH74zj&TxHHZl#LThH4z(lzT&Hx&0TlTLHh&h4wLzH&Z*i0!lHL&TX4TwLz&ZP*T0xl&!wTT4HwH;<ZT*H0ZHV!TTH4&wd;TZH");
+=== the obfuscated code : https://github.com/ASD-THE-BEST/moonsec-v3-dump/blob/main/not%20dumped.txt ===
+1. do beautify moonsec v3 code(recommand luamin exectension in vs code)
+2. find similar like this
+	local z = (getfenv) or (function()
+		return _ENV
+	end);
+	local p = t.cyUskpJK or t.UALSioTr;
+	local c = 4;
+	local d = 2;
+	local o = 3;
+	local j = 1;
+	local function _(b, ...)
+		local u = r(e, "PKOXr;+95h?EqpYoO?r?+ohrEqo9zXO5rpEo=+OEro;hh0EXprYpXX;+9OhqE?YEY;OErE9Uh+qrEqKrXh;qKOrX;h9Y?XXl;O9Y?XqE?KKhrO;;9??Yq5YhKqYoo+KpXp+O59KqrX;o5hEr+5h9?oproh9phzEOYo,qOq;;hXh8E?ooKhrONOrErh+YhXgqr;+Eh?+qp9ooO9r;O;?KEUY9EhOY;;99?KE9p?K*O+r?OE?9EYYYu9YrX+9p?Oq+p_09O?Cq+9+h++5A?;q?YoO;Xh;Y5X?hqpoOK9rY+r5+?Eplo+K?Xo+rhEEXpXo5Kpr++95qEKoqK9O<r;+?h;Erp?oYO5r59KhEE9pqIKOqrE9Kh;EYY5,rOhrY9?h5EYYOM9XK;K9+hEqKY;G?Oo++5;hYqXY5K6XO;99qEXq?YEKKX;;q9o?rqhYYOoX5;p5O?hqqoOK+XE+o5;??qoo;KhXY+X55?ppOo9Kq");
 this super long thing
-2. print this
-3. end
+3. print this
+
+result
+	local z = (getfenv) or (function()
+		return _ENV
+	end);
+	local p = t.cyUskpJK or t.UALSioTr;
+	local c = 4;
+	local d = 2;
+	local o = 3;
+	local j = 1;
+	local function _(b, ...)
+		local u = r(e, "PKOXr;+95h?EqpYoO?r?+ohrEqo9zXO5rpEo=+OEro;hh0EXprYpXX;+9OhqE?YEY;OErE9Uh+qrEqKrXh;qKOrX;h9Y?XXl;O9Y?XqE?KKhrO;;9??Yq5YhKqYoo+KpXp+O59KqrX;o5hEr+5h9?oproh9phzEOYo,qOq;;hXh8E?ooKhrONOrErh+YhXgqr;+Eh?+qp9ooO9r;O;?KEUY9EhOY;;99?KE9p?K*O+r?OE?9EYYYu9YrX+9p?Oq+p_09O?Cq+9+h++5A?;q?YoO;Xh;Y5X?hqpoOK9rY+r5+?Eplo+K?Xo+rhEEXpXo5Kpr++95qEKoqK9O<r;+?h;Erp?oYO5r59KhEE9pqIKOqrE9Kh;EYY5,rOhrY9?h5EYYOM9XK;K9+hEqKY;G?Oo++5;hYqXY5K6XO;99qEXq?YEKKX;;q9o?rqhYYOoX5;p5O?hqqoOK+XE+o5;??qoo;KhXY+X55?ppOo9Kq");
+    print(u)
