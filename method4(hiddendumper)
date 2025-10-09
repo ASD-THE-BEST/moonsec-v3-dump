@@ -1,0 +1,98 @@
+1. do beautify moonsec v3 code(recommand luamin exectension in vs code)
+2. find similar like this
+local function _()
+			local u = {};
+			local h = {};
+			local e = {};
+3. if you find it then scroll down slowly and find similar like this
+			for u = 1, n() do
+				local e = a();
+				if (l(e, 1, 1) == 0) then
+					local t = l(e, 2, 3);
+					local a = l(e, 4, 6);
+					local e = {
+						r(),
+						r(),
+						nil,
+						nil
+					};
+					if (t == 0) then
+						e[o] = r();
+						e[c] = r();
+					elseif (t == #{
+						1
+					}) then
+						e[o] = n();
+					elseif (t == b[2]) then
+						e[o] = n() - (2 ^ 16)
+					elseif (t == b[3]) then
+						e[o] = n() - (2 ^ 16)
+						e[c] = r();
+					end;
+					if (l(a, 1, 1) == 1) then
+						e[d] = f[e[d]]
+					end
+					if (l(a, 2, 2) == 1) then
+						e[o] = f[e[o]]
+					end
+					if (l(a, 3, 3) == 1) then
+						e[c] = f[e[c]]
+					end
+					h[u] = e;
+				end
+			end;
+			s[3] = a();
+			for e = 1, n() do
+				u[e - (#{
+					1
+				})] = _();
+			end;
+			return s; -- this is important
+		end;
+4. print the returned value in i commented
+result may be
+			for u = 1, n() do
+				local e = a();
+				if (l(e, 1, 1) == 0) then
+					local t = l(e, 2, 3);
+					local a = l(e, 4, 6);
+					local e = {
+						r(),
+						r(),
+						nil,
+						nil
+					};
+					if (t == 0) then
+						e[o] = r();
+						e[c] = r();
+					elseif (t == #{
+						1
+					}) then
+						e[o] = n();
+					elseif (t == b[2]) then
+						e[o] = n() - (2 ^ 16)
+					elseif (t == b[3]) then
+						e[o] = n() - (2 ^ 16)
+						e[c] = r();
+					end;
+					if (l(a, 1, 1) == 1) then
+						e[d] = f[e[d]]
+					end
+					if (l(a, 2, 2) == 1) then
+						e[o] = f[e[o]]
+					end
+					if (l(a, 3, 3) == 1) then
+						e[c] = f[e[c]]
+					end
+					h[u] = e;
+				end
+			end;
+			s[3] = a();
+			for e = 1, n() do
+				u[e - (#{
+					1
+				})] = _();
+			end;
+      print(s)
+			return s; -- this is important
+		end;
