@@ -1,2 +1,2 @@
 # moonsec-v3-dump
-sorry for no mom grammer
+if you have any questions feel free to dm me ```@im.asd```
