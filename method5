@@ -1,5 +1,6 @@
 ===litle cool===
 === the obfuscated code : https://github.com/ASD-THE-BEST/moonsec-v3-dump/blob/main/not%20dumped.txt ===
+it prints nothing than debug in rbx studio
 
 1. do beautify moonsec v3 code(recommand luamin exectension in vs code)
 2. find similar like this function name can be diffrent
